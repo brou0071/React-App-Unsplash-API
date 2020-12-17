@@ -1,10 +1,7 @@
 import Unsplash from 'unsplash-js';
-
 import React,{useState} from 'react';
 import './App.css';
 
-// TODO: Replace "APP_ACCESS_KEY" with your own key, which
-// can be generated here: https://unsplash.com/developers
 const unsplash = new Unsplash({ accessKey: '5_8a6_v2hZEEjkn-It2kGO7IVk7GtMAvkpRIu2JZRSE' });
 
 function App() {
